@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "noEmit": true,
+    "importHelpers": true,
+    "newLine": "lf",
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true
+  },
+  "include": ["packages", ".eslintrc.cjs"],
+  "exclude": ["node_modules"]
+}
